@@ -6,21 +6,29 @@
 
 ## Encode
 
-Entrada: dog.jpeg
+Entrada: dog.jpg
 
 Saída: dog.txt (conteúdo é o base64)
 
 
 ## Decode
 
-Entrada: dog.txt
+Entrada: dog.txt (conteúdo é o base64)
 
-Saída: dog.jpeg, se o mimetype for image/jpeg
+Saída: dog.jpg, se o mimetype for image/jpeg
 
 
 ## Referências
 
-  - [Apache Tika](https://tika.apache.org/)
+  - [Apache Tika - Documentação oficial](https://tika.apache.org/)
+
+  - [TIKA - Overview](https://www.tutorialspoint.com/tika/tika_quick_guide.htm)
+
+  - [QUARKUS - USING APACHE TIKA](https://quarkus.io/guides/tika)
+
+  - [Java Code Examples for org.apache.tika.Tika](https://www.programcreek.com/java-api-examples/?api=org.apache.tika.Tika)
+
+  - [Baeldung - Content Analysis with Apache Tika](https://www.baeldung.com/apache-tika)
     
   - [Baeldung - Java Base64 Encoding and Decoding](https://www.baeldung.com/java-base64-encode-and-decode)
 
