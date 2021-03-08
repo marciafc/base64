@@ -1,0 +1,11 @@
+build/
+target/
+.gradle/
+
+# Java
+*.class
+
+# Intellij
+.idea/
+*.iml
+*.iws
